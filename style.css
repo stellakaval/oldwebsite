@@ -1,9 +1,22 @@
 h1 {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 145%;
 }
 
-p {
+h2 {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 145%;
+}
+
+body {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     max-width: 800px;
@@ -11,6 +24,10 @@ p {
     line-height: 145%;
 }
 
-body {
-	margin: 60px auto;
+h3 {
+    background-color: lightgrey;
+    padding: 5px;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 145%;
 }
