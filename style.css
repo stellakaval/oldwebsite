@@ -5,8 +5,13 @@ h1, h2, h3, h4, h5, h6, body {
     font-weight: 300;
 }
 
+h2 {
+    font-size: medium;
+    font-style: italic;
+}
+
 h3 {
-    color: blue;
+    color: #3086eb;
 }
 
 body {
