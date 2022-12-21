@@ -1,0 +1,16 @@
+h1 {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 800px;
+    margin: 60px auto;
+    line-height: 145%;
+}
+
+body {
+	margin: 60px auto;
+}
