@@ -1,32 +1,10 @@
-h1 {
-    color: black;
-    font-family: Helvetica, Arial, sans-serif;
-    font-style: normal;
-    max-width: 800px;
-    margin: 60px auto;
-    line-height: 145%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Fira+Code&display=swap');
 
-h2 {
-    color: black;
-    font-family: Helvetica, Arial, sans-serif;
-    font-style: italic;
-    max-width: 800px;
-    margin: 60px auto;
-    line-height: 145%;
+h1, h2, h3, h4, h5, h6, body {
+    font-weight: 300;
 }
 
 body {
-    color: black;
-    font-family: Helvetica, Arial, sans-serif;
-    max-width: 800px;
-    margin: 60px auto;
-    line-height: 145%;
-}
-
-h3 {
-    background-color: lightgrey;
-    padding: 5px;
     max-width: 800px;
     margin: 60px auto;
     line-height: 145%;
