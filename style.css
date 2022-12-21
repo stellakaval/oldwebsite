@@ -5,13 +5,20 @@ h1, h2, h3, h4, h5, h6, body {
     font-weight: 300;
 }
 
+.header {
+    padding: 30px;
+    text-align: right;
+    background: lightgray;
+    font-size: small;
+}
+
 h2 {
     font-size: medium;
     font-style: italic;
 }
 
 h3 {
-    color: #3086eb;
+    color: rgb(81, 92, 104);
 }
 
 body {
