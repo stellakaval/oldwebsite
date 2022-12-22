@@ -10,10 +10,7 @@ h1, h2, h3, h4, h5, h6, body {
 }
 
 body {
-    line-height: 1.75;
     overflow-x: hidden;
-    padding: 0 1rem;
-    display: block;
     max-width: 800px;
     margin: 60px auto;
 }
@@ -31,7 +28,6 @@ nav {
     left: 0;
     right: 0;
     background-color: whitesmoke;
-    padding: 16px 32px;
 }
 
 h2 {
