@@ -10,10 +10,11 @@ h1, h2, h3, h4, h5, h6, body {
 }
 
 body {
+    line-height: 1.75;
     overflow-x: hidden;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 10px;
+    padding: 0 1rem;
+    display: block;
+    margin: 8px;
 }
 
 .container {
@@ -29,7 +30,9 @@ nav {
     left: 0;
     right: 0;
     background-color: whitesmoke;
-    padding: 16 32px;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h3 {
