@@ -11,8 +11,7 @@ h1, h2, h3, h4, h5, h6, body {
 
 body {
     overflow-x: hidden;
-    max-width: 800px;
-    margin: 60px auto;
+    margin: 50px auto;
 }
 
 .container {
@@ -30,11 +29,11 @@ nav {
     background-color: whitesmoke;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0;
 }
 
 h2 {
     font-size: large;
+    font-style: normal;
 }
 
 h3 {
