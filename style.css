@@ -11,14 +11,13 @@ h1, h2, h3, h4, h5, h6, body {
 
 body {
     overflow-x: hidden;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -29,11 +28,6 @@ nav {
     right: 0;
     background-color: whitesmoke;
     padding: 16 32px;
-}
-
-h2 {
-    font-size: large;
-    font-style: normal;
 }
 
 h3 {
