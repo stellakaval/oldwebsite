@@ -1,5 +1,5 @@
 
-h1, h2, h3, h4, h5, h6, body {
+h1, h2, h3, h4, h5, h6, p {
     color: black;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 300;
@@ -20,26 +20,11 @@ body {
     line-height: 145%;
 }
 
-.topnav {
-    background-color: #0072c1;
-    overflow: hidden;
-}
-  
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 14px;
-}
-  
-.topnav a:hover {
-    background-color: #0285e1;
-    color: white;
-}
-  
-.topnav a.active {
-    background-color: #0285e1;
-    color: white;
-}
+.footer, .bottombar {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    color: slategray;
+ }
