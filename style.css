@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, body {
  
 body, html {
     padding: 0;
+    margin: 20%;
 }
 
 h2 {
@@ -23,31 +24,24 @@ h3 {
 }
 
 .topnav {
-    background-color: #0072c1;
+    background-color: white;
     overflow: hidden;
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
-body {
-    margin: 20%;
 }
   
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .topnav a:hover {
-    background-color: #0285e1;
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 .topnav a.active {
-    background-color: #0285e1;
-    color: white;
+    color:  black;
+    text-decoration: underline;
 }
