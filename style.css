@@ -21,16 +21,8 @@ body {
     height: 100%;
 }
 
-.footer, .bottombar {
-    position:fixed;
-    padding: 14px 16px;
-    width:100%;
-    color: black;
-    background-color: whitesmoke;
-    overflow: hidden;
- }
-
 .topnav {
+    width: 100%;
     background-color: #0072c1;
     overflow: hidden;
 }
