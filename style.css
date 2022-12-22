@@ -10,11 +10,8 @@ h1, h2, h3, h4, h5, h6, body {
 }
  
 body, html {
-    top: 0;
     padding: 0;
-    margin: 60px auto;
-    max-width: 800px;
-    line-height: 145%;
+    margin: 0 auto;
 }
 
 h2 {
@@ -26,25 +23,6 @@ h3 {
     color: #0072c1;
 }
 
-.topnav {
-    background-color: white;
-    overflow: hidden;
-}
-  
-.topnav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.topnav a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-.topnav a.active {
-    color:  black;
-    text-decoration: underline;
+nav {
+    display: block;
 }
