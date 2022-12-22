@@ -11,7 +11,8 @@ h1, h2, h3, h4, h5, h6, body {
 
 body {
     overflow-x: hidden;
-    margin: 50px auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .container {
@@ -27,8 +28,7 @@ nav {
     left: 0;
     right: 0;
     background-color: whitesmoke;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 16 32px;
 }
 
 h2 {
