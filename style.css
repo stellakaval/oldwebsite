@@ -7,11 +7,39 @@ h1, h2, h3, h4, h5, h6, body {
 
 * {
     box-sizing: border-box;
-}
- 
-body, html {
+    margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 1280px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: whitesmoke;
+    padding: 16px 32px;
+}
+
+.menu {
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0 -16px;
+}
+
+.menu a {
+    margin: 0 16px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 99px;
 }
 
 h2 {
