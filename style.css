@@ -7,8 +7,14 @@ h1, h2, h3, h4, h5, h6, body {
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+}
+
+body {
+    line-height: 1.75;
+    overflow-x: hidden;
+    padding: 0 1rem;
+    display: block;
+    margin: 8px;
 }
 
 .container {
