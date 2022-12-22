@@ -28,6 +28,9 @@ nav {
     left: 0;
     right: 0;
     background-color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
 }
 
 h2 {
