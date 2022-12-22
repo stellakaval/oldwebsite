@@ -5,6 +5,14 @@ h1, h2, h3, h4, h5, h6, body {
     font-weight: 300;
 }
 
+* {
+    box-sizing: border-box;
+}
+ 
+body, html {
+    padding: 0;
+}
+
 h2 {
     font-size: medium;
     font-style: italic;
@@ -14,17 +22,19 @@ h3 {
     color: #0072c1;
 }
 
-body {
-    max-width: 800px;
-    line-height: 145%;
-    margin: 60px;
-    height: 100%;
-}
-
 .topnav {
-    width: 100%;
     background-color: #0072c1;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 20px;
+    width: 100%;
+}
+
+body {
+    margin: 20%;
 }
   
 .topnav a {
