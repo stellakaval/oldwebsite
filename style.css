@@ -1,5 +1,5 @@
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, body {
     color: black;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 300;
@@ -16,8 +16,9 @@ h3 {
 
 body {
     max-width: 800px;
-    margin: 60px auto;
     line-height: 145%;
+    margin: 0;
+    height: 100%;
 }
 
 .footer, .bottombar {
