@@ -15,7 +15,7 @@ body {
 
 .header {
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: #f1e2dc;
     padding: 20px 10px;
     border-radius: 4px;
   }
@@ -54,7 +54,7 @@ li {
   
   /* Style the active/current link*/
 .header a.active {
-    color: #0072c1;
+    color: #c88c6f;
 }
   
   /* Float the link section to the right */
@@ -85,7 +85,7 @@ hr {
 }
 
 h3 {
-    color: #0072c1;
+    color: #c88c6f;
 }
 
 footer {
@@ -94,7 +94,10 @@ footer {
     display: block;
 }
 
-a:link { text-decoration: none; }
+a:link { 
+  text-decoration: none; 
+  color: black;
+}
 
 a:visited { text-decoration: none; }
 
@@ -116,7 +119,7 @@ a:active { text-decoration: none; }
 
 .project-box {
   overflow: hidden;
-  background-color: whitesmoke;
+  background-color: #f1e2dc;
   padding: 20px 10px;
   border-radius: 4px;
 }
