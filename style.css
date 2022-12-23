@@ -33,11 +33,11 @@ body {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 li {
-  font-size: 12px;
+  font-size: 14px;
 }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -128,4 +128,8 @@ h4 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+}
+
+dd {
+  font-size: 14;
 }
