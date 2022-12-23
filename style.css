@@ -9,12 +9,14 @@ body {
     color: black;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 300;
+    padding: 0 1rem;
 }
 
 .header {
     overflow: hidden;
     background-color: whitesmoke;
     padding: 20px 10px;
+    border-radius: 10px;
   }
   
 /* Style the header links */
@@ -37,7 +39,7 @@ body {
   
   /* Change the background color on mouse-over */
 .header a:hover {
-    background-color: #ddd;
+    background-color: rgb(209, 209, 209);
     color: black;
 }
   
@@ -64,8 +66,20 @@ body {
 }
 }
 
+hr {
+    border: 0;
+    border-bottom: 2px solid #eee;
+    margin: 2rem auto;
+}
+
 h3 {
     color: #0072c1;
+}
+
+footer {
+    margin: 3rem auto;
+    max-width: 680px;
+    display: block;
 }
 
 a:link { text-decoration: none; }
