@@ -27,9 +27,17 @@ body {
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     border-radius: 4px;
+}
+
+p {
+  font-size: 11px;
+}
+
+li {
+  font-size: 11px;
 }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -90,7 +98,7 @@ a:link { text-decoration: none; }
 
 a:visited { text-decoration: none; }
 
-a:hover { text-decoration: none; }
+a:hover { text-decoration: underline; }
 
 a:active { text-decoration: none; }
 
