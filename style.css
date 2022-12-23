@@ -10,6 +10,7 @@ body {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 300;
     padding: 0 1rem;
+    background: white;
 }
 
 .header {
@@ -54,7 +55,7 @@ body {
 }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
 .header a {
       float: none;
       display: block;
