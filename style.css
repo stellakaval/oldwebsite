@@ -33,11 +33,11 @@ body {
 }
 
 p {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 li {
-  font-size: 11px;
+  font-size: 12px;
 }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -104,4 +104,28 @@ a:active { text-decoration: none; }
 
 .footer-right {
   text-align: center;
+}
+
+.project-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.project-box {
+  overflow: hidden;
+  background-color: whitesmoke;
+  padding: 20px 10px;
+  border-radius: 4px;
+}
+
+h4 {
+  display: block;
+  margin-top: .7em;
+  margin-bottom: .7em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
